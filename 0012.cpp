@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+void temp(){
+  for(int i=0;i<10;i++) cout<<i*(i+1)<<"\n";
+}
 long long fact (int n){
   if(n<=1) return 1;
   return n*fact(n-1);
